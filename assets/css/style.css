@@ -1,0 +1,30 @@
+body {
+        background: url("../../assets/images/final.jpg");
+    color: rgba(0, 0, 0, 0.192);
+    text-shadow: 5px 5px 20px black;
+    font-family: 'Russo One',
+    sans-serif;
+     -webkit-text-stroke-width: .3px;
+     -webkit-text-stroke-color: rgb(11, 21, 66);
+    letter-spacing: 10px;
+}
+
+#jumbo {
+    background-color: aquamarine;
+    color:rgba(6, 37, 39, 0.192);
+ 
+}
+#crystal {
+    background-color: aquamarine;
+    color: rgba(0, 0, 0, 0.527);
+    border-radius: 20px;
+   
+}
+#people {
+       background-color: aquamarine;
+        cursor: pointer;
+}
+#info {
+    margin-top: 10px;
+       border-radius: 10px;
+}

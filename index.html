@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="assets/images/chocobo.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <title>Final Fantasy Number Guess</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+
+
+
+
+
+        <div class="card bg-light text-dark" id="info">
+            <div class="div">
+                <strong>
+                    <h1 class="text-center">
+                        <strong>Final Fantasy, The Numbers Within</strong>
+                    </h1>
+                </strong>
+            </div>
+            <div class="card-body">There will be four  Characters displayed on the page. You will be shown a random number at the
+                start of the game. When the you click on a  character, it will add a specific amount of points to the your
+                total score. You win if your total score matches the random number from the beginning of the game.
+                You lose if your score goes above the random number. The game restarts whenever you win
+                or lose.</div>
+        </div>
+
+        <br>
+        <div class="card bg-dark text-dark">
+            <div class="row">
+
+                <div class="col-sm-6  text-center">
+
+                    <div class="card" id="crystal">
+                        <div class="card-header">
+                            Win Count
+                        </div>
+                        <br>
+                        <h5 class="card-title" id="wins">0</h5>
+
+                    </div>
+                </div>
+                <div class="col-sm-6  text-center">
+
+                    <div class="card" id="crystal">
+                        <div class="card-header">
+                            Loss Count
+                        </div>
+                        <br>
+                        <h5 class="card-title" id="losses">0</h5>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <br>
+
+
+        <div class="row">
+            <div class="col-sm-3 text-center">
+
+                <div class="card" id="crystal" >
+                    <div class="card-header">
+                        OG Number
+                    </div>
+                    <br>
+                    <h5 class="card-title " id="randoNumber">
+
+                    </h5>
+                    <div class="div" id="crystal">
+                        <img src="assets/images/crystal.png" alt="cloud" >
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3  text-center">
+
+                <div class="card" id="crystal">
+                    <div class="card-header">
+                        Your Score
+                    </div>
+                    <br>
+                    <h5 class="card-title" id="yourNumber">
+
+                    </h5>
+
+
+                </div>
+            </div>
+
+            <div class="col-lg-6  text-center">
+
+                <div class="card" id="crystal">
+                    <div class="card-header">
+                        Characters
+                    </div>
+                    <br>
+                    <h5 class="card-title" id="people">
+                        <img src="assets/images/cloud.png" alt="cloud" id="cloud">
+                        <img src="assets/images/lightning.png" alt="lightning" id="light">
+                        <img src="assets/images/tidus.png" alt="tidus" id="tidus">
+                        <img src="assets/images/enemy.png" alt="enemy" id="enemy">
+                    </h5>
+                </div>
+            </div>
+
+            <div class="row">
+
+
+
+            </div>
+
+
+
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                crossorigin="anonymous"></script>
+            <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
